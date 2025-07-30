@@ -86,11 +86,11 @@
   color: #838383;
 }
 
-.footer__opening-hours p {
+.header__opening-hours p {
   margin: 0;
 }
 
-.footer__paragraph {
+.header__paragraph {
   margin: 0;
   align-self: flex-end;
 }
@@ -132,7 +132,7 @@
   margin-bottom: 215px;
 }
 
-.recipes__inframe {
+.recipes__iframe {
   border: 0;
   height: 273px;
   width: 480px;
