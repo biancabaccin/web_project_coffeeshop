@@ -115,28 +115,38 @@
           <h2 class="reservation__title">Reservar uma mesa</h2>
           <form class="form reservation__form">
             <fieldset class="form__fieldset">
-              <label class="form__label">Nome:*</label>
+              <label class="form__label" for="nome">Nome:*</label>
               <input
                 class="form__input"
                 type="text"
                 placeholder="Nome"
                 required
+                id="nome"
               />
-              <label class="form__label">Número de convidados:*</label>
+              <label class="form__label" for="numeroConvidados"
+                >Número de convidados:*</label
+              >
               <input
                 class="form__input"
                 type="number"
                 placeholder="1-8"
                 required
+                id="numeroConvidados"
               />
-              <label class="form__label">Data e hora:*</label>
-              <input class="form__input" type="datetime-local" required />
-              <label class="form__label">Seu e-mail:*</label>
+              <label class="form__label" for="dataHora">Data e hora:*</label>
+              <input
+                class="form__input"
+                type="datetime-local"
+                required
+                id="dataHora"
+              />
+              <label class="form__label" for="email">Seu e-mail:*</label>
               <input
                 class="form__input"
                 type="email"
                 placeholder="email@email.com"
                 required
+                id="email"
               />
               <button class="form__button form__button-submit" type="submit">
                 Reservar uma mesa
