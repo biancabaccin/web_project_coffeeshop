@@ -227,7 +227,7 @@ input.form__input[type="datetime-local"] {
   line-height: 20px;
 }
 
-.form__button--submit:hover {
+.form__button-submit:hover {
   opacity: 0.7;
 }
 
@@ -245,8 +245,3 @@ input.form__input[type="datetime-local"] {
   height: 20px;
   width: 20px;
 }
-
-/* .form__checkbox-input:checked::after {
-  background-color: #2f80ed;
-  background-image: url("../images/check.svg");
-} */
