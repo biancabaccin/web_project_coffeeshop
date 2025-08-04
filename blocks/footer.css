@@ -33,18 +33,16 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+  text-align: center;
 }
 
 .footer__list {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .footer__list-item {
-  color: #ffffff;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  column-gap: 10px;
   margin: 0 0 16px 0;
   font-size: 16px;
   line-height: 20px;
@@ -54,7 +52,15 @@
   margin-bottom: 0;
 }
 
-.footer__list-item:focus {
+.footer__social-link {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.footer__social-link:focus {
   color: #c1c1c1;
 }
 

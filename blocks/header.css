@@ -7,6 +7,8 @@
   max-height: 800px;
   display: flex;
   flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -44,7 +46,7 @@
   right: 5px;
 }
 
-.header__footer {
+.header__adress {
   display: flex;
   justify-content: space-between;
   margin: auto 80px 40px;
