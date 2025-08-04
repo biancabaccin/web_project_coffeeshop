@@ -10,7 +10,6 @@
     <meta name="author" content="Bianca Baccin" />
     <meta name="keywords" content="cafeteria, receitas, estudo" />
     <title>Cafeteria TriplePeaks</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -33,18 +32,22 @@
         <nav class="nav">
           <img
             src="./images/logo_coffeeshop_dark.svg"
-            alt="Logotipo Cafeteria TriplePeaks"
+            alt="Logotipo Cafeteria TripleEspresso"
             class="nav__logo"
           />
           <ul class="nav__links">
             <li>
-              <a class="nav__link" href="#recipes">Receitas</a>
+              <a class="nav__link nav__link-active" href="#recipes">Receitas</a>
             </li>
             <li>
-              <a class="nav__link" href="#reservation">Reservar uma mesa</a>
+              <a class="nav__link nav__link-active" href="#reservation"
+                >Reservar uma mesa</a
+              >
             </li>
             <li>
-              <a class="nav__link" href="#contacts">Contatos</a>
+              <a class="nav__link nav__link-active" href="#contacts"
+                >Contatos</a
+              >
             </li>
           </ul>
         </nav>
@@ -152,14 +155,44 @@
                 Reservar uma mesa
               </button>
               <label class="form__checkbox">
-                <input type="checkbox" class="form__checkbox-input" />
+                <input type="checkbox" class="form__checkbox-input" required />
                 Eu concordo com os termos de uso
               </label>
             </fieldset>
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="contacts">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logotipo Cafeteria TripleEspresso"
+            class="footer__logo"
+          />
+          <div class="footer__circle"></div>
+          <div class="footer__social">
+            <p class="footer__social-heading">Mídia social</p>
+            <li class="footer__list">
+              <a href="#" class="footer__list-item footer__list-item">
+                <img
+                  src="./images/facebook_white.svg"
+                  alt="Facebook Logo"
+                  class="footer__social-icon"
+                />Facebook
+              </a>
+
+              <a href="#" class="footer__list-item">
+                <img
+                  src="./images/instagram_white.svg"
+                  alt="Instagram Logo"
+                  class="footer__social-icon"
+                />Instagram
+              </a>
+            </li>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2025 Bianca Baccin</p>
+      </footer>
     </div>
   </body>
 </html>
