@@ -46,7 +46,7 @@
   right: 5px;
 }
 
-.header__adress {
+.header__address {
   display: flex;
   justify-content: space-between;
   margin: auto 80px 40px;
